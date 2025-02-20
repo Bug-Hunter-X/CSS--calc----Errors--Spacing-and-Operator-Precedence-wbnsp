@@ -1,0 +1,6 @@
+/* Correct spacing and operator precedence */
+width: calc(100% - 20px);
+height: calc(20px + (100% * 2));
+/*Using explicit units everywhere to avoid misinterpretations*/
+width: calc(100vw - 20px);
+height: calc(20px + (100vh * 2));
